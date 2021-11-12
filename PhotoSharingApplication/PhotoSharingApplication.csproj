@@ -94,6 +94,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\main.css" />
+    <Content Include="Expression Web Mock Up\allphotos.html" />
+    <Content Include="Content\BackgroundGradient.jpg" />
+    <Content Include="Content\blackberries.JPG" />
+    <Content Include="Content\coastalview.jpg" />
+    <Content Include="Content\headland.jpg" />
+    <Content Include="Content\PhotoSharingStyles.css" />
+    <Content Include="Content\pontoon.JPG" />
+    <Content Include="Content\track.JPG" />
+    <Content Include="Expression Web Mock Up\default.html" />
+    <Content Include="Expression Web Mock Up\Photo.html" />
     <Content Include="Global.asax" />
     <Content Include="Images\flower.JPG" />
     <Content Include="Images\fungi.JPG" />
@@ -138,6 +149,9 @@
     <Content Include="Views\Photo\Create.cshtml" />
     <Content Include="Views\Shared\_PhotoGallery.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_MainLayout.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Error.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -147,6 +161,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Expression Web Mock Up\Content\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202111072124345_initial.resx">

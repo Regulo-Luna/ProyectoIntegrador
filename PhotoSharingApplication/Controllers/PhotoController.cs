@@ -7,10 +7,12 @@ using System.Globalization;
 using PhotoSharingApplication.Models;
 namespace PhotoSharingApplication.Controllers
 {
+    [HandleError(View = "Error")]
     [ValueReporter]
     public class PhotoController : Controller
         
     {
+        
         private PhotoSharingContext context = new PhotoSharingContext();
         // GET: Photo
         public ActionResult Index()

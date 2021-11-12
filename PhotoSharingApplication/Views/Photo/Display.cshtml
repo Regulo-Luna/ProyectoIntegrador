@@ -1,12 +1,8 @@
-﻿@model PhotoSharingApplication.Models.Photo
-<!DOCTYPE html>
+﻿@{ 
+    ViewBag.Title = Model.Title;
+}
+@model PhotoSharingApplication.Models.Photo
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Display</title>
-</head>
-<body>
     <fieldset>
         <legend>Photo</legend>
 
@@ -54,5 +50,3 @@
         @Html.ActionLink("Edit", "Edit", new { id = Model.PhotoID }) |
         @Html.ActionLink("Back to List", "Index")
     </p>
-</body>
-</html>
