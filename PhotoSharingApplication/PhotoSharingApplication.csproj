@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\main.css" />
+    <Content Include="Error.html" />
     <Content Include="Expression Web Mock Up\allphotos.html" />
     <Content Include="Content\BackgroundGradient.jpg" />
     <Content Include="Content\blackberries.JPG" />
